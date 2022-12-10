@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@color/white"
+    tools:ignore="ExtraText">
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="5dp"
+        android:onClick="click_back"
+        android:text="@string/back"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/current_move"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="20dp"
+        tools:ignore="UnknownId">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/issue_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="5dp"
+        android:text="Вы победили"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="55dp"
+            android:layout_marginRight="55dp"
+            android:layout_marginTop="60dp">
+
+
+            <ImageView
+                android:id="@+id/cross_score"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginRight="35dp"
+
+                android:layout_weight="1"
+                android:gravity="center"
+                app:srcCompat="@drawable/cross"
+                tools:ignore="UnknownId">
+
+            </ImageView>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1">
+            </ImageView>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1">
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/zero_score"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="35dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                app:srcCompat="@drawable/zero"
+                tools:ignore="UnknownId">
+
+            </ImageView>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="28dp"
+            android:layout_marginRight="28dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/points_player1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="0"
+                android:textColor="@color/black"
+                android:textSize="22sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/points_player2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="0"
+                android:textColor="@color/black"
+                android:textSize="22sp" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="125dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="@color/black">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:onClick="button_click" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:onClick="button_click" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:onClick="button_click" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:onClick="button_click" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:onClick="button_click" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:onClick="button_click" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:onClick="button_click" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:onClick="button_click" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:onClick="button_click" />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/restartGame"
+        android:onClick="clickRestart"
+        android:layout_marginBottom="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/restart_game"
+        android:textSize="14sp"
+        android:visibility="invisible"/>
+
+</RelativeLayout>

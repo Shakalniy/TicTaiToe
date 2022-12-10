@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Tic Tac Toe</string>
+    <string name="main_menu_text">Main Menu</string>
+    <string name="start_game">Start Game</string>
+    <string name="language">Language</string>
+    <string name="credits">Credits</string>
+    <string name="exit">Exit</string>
+    <string name="back"> ˂ </string>
+    <string name="back_of_letters"> Back </string>
+    <string name="game_mode">Game Mode</string>
+    <string name="game_mode_one_gamer">One Gamer</string>
+    <string name="game_mode_two_gamer">Two Gamers</string>
+    <string name="restart_game">Continue ?</string>
+    <string name="winner_massage_to_Player">You have won!</string>
+    <string name="lose_massage_to_Player">You\'ve lost!</string>
+    <string name="winner_massage_to_player1">Player 1 won!</string>
+    <string name="winner_massage_to_player2">Player 2 won!</string>
+    <string name="draw_massage">Draw!</string>
+    <string name="choose_the_difficulty">Choose the difficulty</string>
+    <string name="easy_bot">Easy</string>
+    <string name="medium_bot">Medium</string>
+    <string name="heavy_bot">Hard</string>
+    <string name="god_bot">Impossible</string>
+    <string name="credit">Credit: Shakal\'niy</string>
+    <string name="version">Version: 1.0</string>
+    <string name="contact">Contact me: itsmy6328@gmail.com</string>
+    <string name="EN_lan">English</string>
+</resources>

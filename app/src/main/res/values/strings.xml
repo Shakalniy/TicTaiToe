@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Крестики нолики</string>
+    <string name="main_menu_text">Главное меню</string>
+    <string name="start_game">Начать игру</string>
+    <string name="language">Язык</string>
+    <string name="credits">Авторы</string>
+    <string name="exit">Выход</string>
+    <string name="back"> ˂ </string>
+    <string name="back_of_letters"> Назад </string>
+    <string name="game_mode">Режим игры</string>
+    <string name="game_mode_one_gamer">Один игрок</string>
+    <string name="game_mode_two_gamer">Два игрока</string>
+    <string name="restart_game">Продолжить ?</string>
+    <string name="winner_massage_to_Player">Вы победили!</string>
+    <string name="lose_massage_to_Player">Вы проиграли!</string>
+    <string name="winner_massage_to_player1">Победил Игрок 1!</string>
+    <string name="winner_massage_to_player2">Победил Игрок 2!</string>
+    <string name="draw_massage">Ничья!</string>
+    <string name="choose_the_difficulty">Выберите сложность</string>
+    <string name="easy_bot">Легко</string>
+    <string name="medium_bot">Средне</string>
+    <string name="heavy_bot">Сложно</string>
+    <string name="god_bot">Невозможно</string>
+    <string name="credit">Автор: Шакальный</string>
+    <string name="version">Версия: 1.0</string>
+    <string name="contact">Связаться со мной: itsmy6328@gmail.com</string>
+    <string name="EN_lan">Английский</string>
+</resources>
